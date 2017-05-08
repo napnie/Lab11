@@ -4,5 +4,8 @@ class ApplicationController < ActionController::Base
     def hello
         rander html: "hello, world!"
     end
+    
+    def contact
+    end
   
 end
