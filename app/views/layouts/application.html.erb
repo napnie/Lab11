@@ -30,30 +30,22 @@
 
         <div class="container">
 
-            <%= link_to "sample app", '#', id: "logo" %>
+            <%= link_to "sample app", '/', id: "logo" %>
 
                 <nav>
 
                     <ul class="nav navbar-nav navbar-right">
 
                         <li>
-                            <%= link_to "Home", '/' %>
+                            <%= link_to "Home", root_path %>
                         </li>
 
                         <li>
-                            <%= link_to "Help", '/static_page/help' %>
-                        </li>
-                        
-                        <li>
-                            <%= link_to "Contact", '/static_page/contact' %>
-                        </li>
-                        
-                        <li>
-                            <%= link_to "About", '/static_page/about' %>
+                            <%= link_to "Help", help_path %>
                         </li>
 
                         <li>
-                            <%= link_to "Log in", '/static_page/login' %>
+                            <%= link_to "Log in", login_path %>
                         </li>
 
                     </ul>
